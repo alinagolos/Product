@@ -683,3 +683,51 @@ blockquote cite {
   text-align: center;
 }
 /*commercial end*/
+
+/*footer start*/
+.footer {
+  margin-bottom: 47px;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item .logo {
+  margin-right: 146px;
+  margin-bottom: 18px;
+}
+.social-footer a {
+  margin-right: 15px;
+}
+.nav-footer-1 {
+  margin-right: 129px;
+}
+.nav-footer-2 {
+  margin-right: 82px;
+}
+.nav-footer-2 li,
+.nav-footer-1 li {
+  margin-bottom: 10px;
+}
+.footer-item:last-child {
+  max-width: 325px;
+}
+
+.footer-item input {
+  width: 250px;
+  padding: 15px 43px;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background: url(../images/mobile.svg) no-repeat 12px 7px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+.footer-item input::placeholder {
+  color: #02897a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: start;
+}
+
+/*footer end*/
