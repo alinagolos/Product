@@ -645,3 +645,41 @@ blockquote cite {
 }
 
 /*comments end*/
+/*commercial start*/
+.commercial {
+  margin-bottom: 90px;
+}
+.commercial-content {
+  max-width: 968px;
+  margin: 0 auto;
+  border-radius: 32px;
+  background: #02897a;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 50px;
+  padding-left: 54px;
+}
+.commercial-title {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.4%;
+  text-align: start;
+  margin-top: 49px;
+  margin-bottom: 46px;
+}
+.commercial-content-left a {
+  width: 100px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px 34px;
+  color: #02897a;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+/*commercial end*/
